@@ -33,7 +33,7 @@ async function video_app() {
 
     document.getElementById('video').innerText = `
       Prediction: ${result[0].className}\n
-      Probability: ${result[0].probability.toFixed(2) * 100 + " %"}
+      Confidence: ${result[0].probability.toFixed(2) * 100 + " %"}
     `;
 
     // Give some breathing room by waiting for the next animation frame to
@@ -60,7 +60,7 @@ async function display_prediction(){
   console.log(result);
   document.getElementById('image_prediciton').innerText = `
       Prediction: ${result[0].className}\n
-      Probability: ${result[0].probability.toFixed(2) * 100 + " %"}
+      Confidence: ${result[0].probability.toFixed(2) * 100 + " %"}
     `;
 }
 
