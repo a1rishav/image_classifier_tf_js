@@ -1,4 +1,4 @@
-# What is it do?
+# What does it do?
 Simplest image classifier using tensorflow.js. It works on image and video using pretrained mobilenet model.
 
 # How to run?
