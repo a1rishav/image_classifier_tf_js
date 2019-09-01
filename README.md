@@ -1,5 +1,5 @@
 # What is it do?
-Simplest image classifier using tensorflow.js. It works on image and video using pretrained mobilenet.
+Simplest image classifier using tensorflow.js. It works on image and video using pretrained mobilenet model.
 
 # How to run?
 Just clone the repo and open index.html in your browser.
